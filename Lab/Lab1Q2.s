@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to add and subtract the contents of register R0 with R1 and store it in register R3 and R4 respectively
 
 ;;; Directives
           	PRESERVE8
