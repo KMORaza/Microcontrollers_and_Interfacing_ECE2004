@@ -1,4 +1,4 @@
-// Write an embedded C program to rotate 4-pole stepper motor in clockwise for 5 times. Assume Stepper motor pins are connected to P2.3 to P2.0 (4th to 1st pole)
+// Write embedded C program to rotate 4-pole stepper motor in clockwise for 5 times. Assume Stepper motor pins are connected to P2.3 to P2.0 (4th to 1st pole)
 #include <LPC17xx.h>
 // Function to initialize GPIO pins
 void initializeGPIO() {
