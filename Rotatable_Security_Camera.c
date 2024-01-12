@@ -1,5 +1,5 @@
 // Conditions:
-// 1. The 6-pole stepper motor is connected to pins P2.0 to P2.5 (or any other suitable GPIO pins) on an LPC17xx microcontroller.
+// 1. 6-pole stepper motor is connected to pins P2.0 to P2.5 (or any other suitable GPIO pins) on an LPC17xx microcontroller.
 // 2. The system can rotate the camera in both clockwise and anti-clockwise directions.
 // 3. User input is provided through a set of buttons connected to different GPIO pins. For simplicity, let's assume one button each for clockwise and anti-clockwise rotation.
 // 4. The system continuously monitors the user input to adjust the camera's position accordingly.
