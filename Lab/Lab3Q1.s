@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an ALP to set 19th bit and 9th bits and reset 22nd and 7th bits of R2 register without disturbing the remaining bits and store the value in 10000000 memory location
 
 ;;; Directives
           	PRESERVE8
