@@ -16,7 +16,6 @@ __Vectors
  
           	ALIGN
  
-; Linker requires Reset_Handler
 SRAM_BASE EQU 0x04000000
           	AREA    MYCODE, CODE, READONLY
           	ENTRY
