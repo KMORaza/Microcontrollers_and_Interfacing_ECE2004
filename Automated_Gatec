@@ -1,6 +1,7 @@
-;; Write an embedded C code for Automated Gate.
-;;  1. When any car is in front of gate then Gate will OPEN. 
-;;  2. When NO car is in front of gate then gate will CLOSED.
+/* Write an embedded C code for Automated Gate.
+   1. When any car is in front of gate then Gate will OPEN. 
+   2. When NO car is in front of gate then gate will CLOSED.
+*/
 #include <LPC17xx.h>
 // Function to initialize GPIO pins
 void initializeGPIO() {
