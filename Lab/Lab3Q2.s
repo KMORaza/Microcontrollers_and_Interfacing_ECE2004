@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to multiply R2 content with 35 using shift instructions and store the result in memory location 0x10000100.
 
 ;;; Directives
           	PRESERVE8
