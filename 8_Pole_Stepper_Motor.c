@@ -1,5 +1,5 @@
-;; Write an embedded C program to rotate 8-pole stepper motor in half step clockwise direction up to 225 degrees steps whenever we press 2 in 2x2 keypad and rotate in anti-clockwise direction 
-;; to its original position when we press 3 in 2x2 keypad. Assume Stepper motor pins are connected to P2.15 to P2.8 (8th to 1st pole) and R1, R2, C1, C2 are connected to P3.7, P3.6, P3.5, and P3.4 respectively.
+// Write an embedded C program to rotate 8-pole stepper motor in half step clockwise direction up to 225 degrees steps whenever we press 2 in 2x2 keypad and rotate in anti-clockwise direction 
+// to its original position when we press 3 in 2x2 keypad. Assume Stepper motor pins are connected to P2.15 to P2.8 (8th to 1st pole) and R1, R2, C1, C2 are connected to P3.7, P3.6, P3.5, and P3.4 respectively.
 #include <LPC17xx.h>
 // Function to initialize GPIO pins
 void initializeGPIO() {
