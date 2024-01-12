@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to transfer 10 bytes of data from 10000000H memory location to 10002000H memory location
 
 ;;; Directives
           	PRESERVE8
