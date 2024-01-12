@@ -23,7 +23,6 @@ SRAM_BASE EQU 0x04000000
         	EXPORT Reset_Handler
 
 Reset_Handler
-;;;;;;;;;;User Code Starts from the next line;;;;;;;;;;;;
 ; 20BCD7138
 ; Write an assembly language code to add and subtract the contents of register 
 ;R0 with R1 and store it in register R3 and R4 respectively.
