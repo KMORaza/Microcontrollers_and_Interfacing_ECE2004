@@ -1,10 +1,10 @@
-;; Assumptions:
-;; 1. 7-segment display(a, b, c, d, e, f, g, h) is connected to P0.7 to P0.0 respectively.
-;; 2. R1(P1), R2(P2), R3(P3), R4(P4) are connected to P2.6, P2.5, P2.4, P2.3 respectively.
-;; 3. C1(P5), C2(P6), C3(P7) are connected to P2.2, P2.1, P2.0 respectively.
-;; 4. Pressing “*” button in keypad will display only “.”
-;; 5. Pressing “#” button in keypad will display only “8.”
-;;----------------------------------------------------------------------------------------
+/* Assumptions:
+   1. 7-segment display(a, b, c, d, e, f, g, h) is connected to P0.7 to P0.0 respectively.
+   2. R1(P1), R2(P2), R3(P3), R4(P4) are connected to P2.6, P2.5, P2.4, P2.3 respectively.
+   3. C1(P5), C2(P6), C3(P7) are connected to P2.2, P2.1, P2.0 respectively.
+   4. Pressing “*” button in keypad will display only “.”
+   5. Pressing “#” button in keypad will display only “8.”
+*/
 #include “LPC17XX.H”
 void Delay(unsigned int x);
 int main(){
