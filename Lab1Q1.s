@@ -23,7 +23,6 @@ SRAM_BASE EQU 0x04000000
         	EXPORT Reset_Handler
 
 Reset_Handler
-;;;;;;;;;;User Code Starts from the next line;;;;;;;;;;;;
 ; 20BCD7138
 ; Write an assembly language code to copy content of memory location 0x10000100 to the memory location 0x10000200.
 	LDR    R1, =0x10000100   ; Load the source address into register R1
