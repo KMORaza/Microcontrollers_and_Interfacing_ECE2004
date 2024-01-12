@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to multiply the contents of two 32 bit numbers present in memory location 0x1000000 and R1 register and store the 64 bit result in memory location 0x10000100 and 0x10000200
 
 ;;; Directives
           	PRESERVE8
