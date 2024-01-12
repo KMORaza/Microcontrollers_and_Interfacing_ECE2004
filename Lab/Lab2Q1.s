@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to multiply the contents of R0 and R1 and store it in memory location 0x10000000.
 
 ;;; Directives
           	PRESERVE8
