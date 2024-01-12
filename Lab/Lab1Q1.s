@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;Assembly code for transfer of data from one memory location to another;;;;;;;;;;;;;;;;;;;
+;; Write an assembly language code to copy content of memory location 0x10000100 to the memory location 0x10000200
 
 ;;; Directives
           	PRESERVE8
