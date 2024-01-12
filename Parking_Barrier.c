@@ -1,5 +1,5 @@
-;; Write an embedded C program to operate car parking barrier with stepper motor and IR sensor and to operate exhaust fan with DC motor and digital PIR sensor. 
-;; Assume stepper motor is connected to P2.3 to P2.0 (3rd to 0th pole), DC exhaust is connected to P2.21(-ve), P2.22(+ve), IR sensor is connected to P2.18 and digital PIR sensor is connected to P2.27
+// Write an embedded C program to operate car parking barrier with stepper motor and IR sensor and to operate exhaust fan with DC motor and digital PIR sensor. 
+// Assume stepper motor is connected to P2.3 to P2.0 (3rd to 0th pole), DC exhaust is connected to P2.21(-ve), P2.22(+ve), IR sensor is connected to P2.18 and digital PIR sensor is connected to P2.27
 #include <LPC17xx.h>
 // Function to initialize GPIO pins
 void initializeGPIO() {
