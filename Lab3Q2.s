@@ -23,7 +23,6 @@ SRAM_BASE EQU 0x04000000
         	EXPORT Reset_Handler
 
 Reset_Handler
-;;;;;;;;;;User Code Starts from the next line;;;;;;;;;;;;
 ; 20BCD7138
 	LDR   R7, =0x10000100   ; Load the memory address 0x10000100 into register R7
     MOV   R2, #100          ; Move the value 100 into register R2
